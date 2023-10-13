@@ -1,4 +1,4 @@
-#	simpledb.py -- a nice and simple database
+ 	simpledb.py -- a nice and simple database
 #	Written by Joe Salisbury <salisbury.joseph@gmail.com>
 #
 #	You are free to use this code in anyway you see fit, on the basis
@@ -9,7 +9,7 @@
 
 # In a nutshell, the Database class acts like a dictionary, and
 # implements most of the built-in dictionaries functions. Except its
-# persistent!
+# persistent 
 # As bsddb can only accept strings for keys and values, we need to
 # pickle everything before we use it. Therefore, most of the functions
 # dump the data, interface with the dict, then load the results.
@@ -103,4 +103,4 @@ class Database():
 	def __del__(self):
 		""" Sync the database. """
 
-		self.data.sync()
+		self.data.sync() 
