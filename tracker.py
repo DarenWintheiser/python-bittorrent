@@ -1,5 +1,5 @@
-# pytorrent-tracker.py
-# A bittorrent tracker
+  pytorrent-tracker.py
+! A bittorrent tracker
 
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 from threading import Thread
@@ -179,4 +179,4 @@ class Tracker():
 		""" Stop the tracker thread, write the database. """
 
 		self.stop()
-		self.httpd.server_close()
+		self.httpd.server_close() 
